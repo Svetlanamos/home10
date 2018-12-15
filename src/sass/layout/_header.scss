@@ -1,0 +1,211 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+* {
+  transition: all 1s;
+}
+
+.background-menu {
+  background-color: #df001f;
+}
+
+.menu li a, .menu-1 li a {
+  color: #ffffff;
+  font-family: "Droid Sans", Arial sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 2px;
+  transition: 1s linear;
+}
+
+.menu-1 li a:hover {
+  color: #fff;
+  background: #727271;
+}
+
+.menu li a:hover {
+  color: #fff;
+  background: #727271;
+}
+
+.logo {
+  padding: 2px;
+  transition: 1s linear;
+
+}
+
+.logo a:hover {
+  color: #fff;
+  background: #727271;
+  padding: 50px 20px 10px 20px;
+  border-radius: 50%;
+}
+
+.background-imag {
+  background-image: url("../img/3.png");
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.brr {
+  background-color: #df001f;
+  height: 5px;
+  width: 600px;
+}
+
+.buttons-ticket {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+  .menu-1 {
+    visibility: hidden;
+    display: none;
+  }
+  .logo {
+    margin-top: 25px;
+    margin-right: -70px;
+  }
+  .logo img {
+    width: 60px;
+  }
+  .container-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .menu {
+    padding: 20px 5px 20px 50px;
+
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+
+  }
+  .buttons a {
+    font-size: 8px;
+    padding: 5px;
+    font-weight: normal;
+  }
+
+  h1, h2 {
+    font-size: 30px;
+  }
+
+  .buttons-mode a {
+    font-size: 9px;
+  }
+
+  .buttons-mode {
+    width: 150px;
+  }
+
+  .poster h2 {
+    margin-bottom: 30px;
+    color: black;
+  }
+  .brr {
+    width: 100px;
+    height: 3px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  .logo {
+    padding: 30px 5px;
+  }
+  .menu {
+    padding: 20px 5px 20px 10px;
+
+  }
+  .buttons {
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .buttons a {
+    font-size: 8px;
+    font-weight: bold;
+    padding: 5px 5px 5px 10px;
+  }
+
+  .menu-1 {
+    padding: 20px 5px 20px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .menu-1 li a {
+    padding: 10px;
+  }
+  h1, h2 {
+    font-size: 80px;
+  }
+  .buttons-mode a {
+    font-size: 11px;
+  }
+  .buttons-mode {
+    width: 180px;
+  }
+  .brr {
+    width: 250px;
+  }
+
+}
+
+//адаптация шапки под большой экран
+
+@media only screen and (min-width: 1001px) {
+  .container-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .logo {
+    padding: 30px 0 30px 30px;
+  }
+  .menu-1 {
+    padding: 20px 0 20px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-1 li a, .menu li a {
+    padding: 10px;
+  }
+  .buttons {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .buttons a {
+    padding: 12px;
+    margin-left: 20px;
+  }
+
+}

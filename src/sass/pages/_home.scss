@@ -1,0 +1,47 @@
+//section 6
+
+@media only screen and (max-width: 500px) {
+  .layers2 {
+    padding: 20px;
+  }
+}
+
+.background-ass {
+  background: #727271 url("../img/Layer1.png") no-repeat right;
+  width: 100%;
+}
+
+.text-tam-official {
+  text-align: center;
+}
+
+.text-tam-official li h6 {
+  margin: 0;
+  padding: 70px 10px 20px 10px;
+}
+
+.layers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+}
+
+.layers2 {
+  padding: 50px 30px 90px;
+}
+
+.layers1 {
+  padding: 50px 30px 30px;
+}
+.layers li {
+  padding: 5px;
+  transition: 1s;
+}
+.layers li:hover {
+  background-color: #727271;
+  border-radius: 25px;
+  border: #333333 2px solid;
+}
