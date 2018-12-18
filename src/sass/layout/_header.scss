@@ -16,31 +16,25 @@ body {
   font-family: "Droid Sans", Arial sans-serif;
   font-size: 13px;
   text-transform: uppercase;
-  padding: 2px;
   transition: 1s linear;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .menu-1 li a:hover {
-  color: #fff;
-  background: #727271;
+  color: #727271;
+  background: #ffffff;
 }
 
 .menu li a:hover {
-  color: #fff;
-  background: #727271;
+  color: #727271;
+  background: #ffffff;
 }
 
 .logo {
   padding: 2px;
   transition: 1s linear;
 
-}
-
-.logo a:hover {
-  color: #fff;
-  background: #727271;
-  padding: 50px 20px 10px 20px;
-  border-radius: 50%;
 }
 
 .background-imag {
